@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/71dac4e3f9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen w-full bg-blue-500 flex items-center justify-center ">
+    <!-- form tag - for getting user input -->
+    <form action="" class="h-[600px] w-[400px] bg-white p-10">
+        <!-- user logo  -->
+        <div class="h-[250px] w-full p-1 flex items-center justify-center">
+            <i class="fa-solid fa-user text-[58px]"></i>
+        </div>
+        <!-- input for getting email -->
+        <div>
+            <label for="email" class="font-semibold">Email</label><br>
+            <input type="email" placeholder="xyz@gmail.com" class="w-full p-4 outline-blue-500 border-2 border-blue-500" name="email" required>
+        </div>
+        <!-- input for getting password -->
+        <div>
+            <label for="password" class="font-semibold">Password</label><br>
+            <input type="password" class="w-full p-4 outline-blue-500 border-2 border-blue-500" placeholder="********" name="password" required>
+        </div><br>
+        <button class="w-full bg-blue-500 p-2 rounded-md text-white font-semibold">Login</button>
+    </form>
+</body>
+</html>
